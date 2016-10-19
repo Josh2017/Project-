@@ -1,0 +1,20 @@
+		$x = array();
+		$x[0] = "Josh";
+		$x[1]="barry";
+		$x[2] = "dan";
+		
+		array_push($x,"Jonnhy","kate","ashley","Jeff","kelsey","Gina");
+		sort($x);
+		$y = count($x);
+		$winner = rand(0,$y);
+		echo strtoupper("The winner is :"." ".$x[$winner]);
+		
+		echo "<br>";
+		
+		foreach ($x as $t)
+	   {
+	       
+	       echo "<br>".$t;
+	       
+	       
+	       }
